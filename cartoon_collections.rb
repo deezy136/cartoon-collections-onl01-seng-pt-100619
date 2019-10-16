@@ -12,8 +12,9 @@ end
 def summon_captain_planet(elements)# code an argument here
   # Your code here
   new_elements = []
-  elements.each do |name |
-    new_elements << name.upcase
+  i = 0 
+  while i < elements.size
+  
   end 
   new_elements
 end
