@@ -11,7 +11,11 @@ end
 
 def summon_captain_planet(elements)# code an argument here
   # Your code here
-  elements
+  new_elements = []
+  elements.each do |name |
+    new_elements << name.upcase
+  end 
+  new_elements
 end
 
 def long_planeteer_calls# code an argument here
