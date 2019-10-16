@@ -1,5 +1,12 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(names)# code an argument here
   # Your code here
+  count = 1 
+  i = 0 
+  while i < names.size 
+  puts "#{count} #{names[i]}"
+  count+=1 
+  i+=1 
+end 
 end
 
 def summon_captain_planet# code an argument here
