@@ -14,7 +14,7 @@ def summon_captain_planet(elements)# code an argument here
   new_elements = []
   i = 0 
   while i < elements.size
-  
+  new_elements << "#{elements[i]}!"
   end 
   new_elements
 end
